@@ -1,4 +1,8 @@
-pythondot-env
+python-dotenv
 pandas
 numpy
+certifi
+pymongo
+
+#-e . ##This will refer it to setup.py  we use it at the end when we want to complete or deploy our project
 
