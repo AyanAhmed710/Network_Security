@@ -1,0 +1,4 @@
+pythondot-env
+pandas
+numpy
+
