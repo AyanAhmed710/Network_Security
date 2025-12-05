@@ -1,0 +1,7 @@
+[ 2025-12-06 02:22:02,914 ] - 15 root - INFO - Initiate the Data Ingestion
+[ 2025-12-06 02:22:19,346 ] - 60 root - INFO - Performing Train Test Split on dataset
+[ 2025-12-06 02:22:19,346 ] - 62 root - INFO - Excited split_data as train test split
+[ 2025-12-06 02:22:19,347 ] - 67 root - INFO - Export tain and test file path
+[ 2025-12-06 02:22:19,369 ] - 72 root - INFO - Exporting train and test path
+[ 2025-12-06 02:22:19,369 ] - 19 root - INFO - Data Ingestion Completed
+[ 2025-12-06 02:22:19,387 ] - 23 root - INFO - Data Validation has started

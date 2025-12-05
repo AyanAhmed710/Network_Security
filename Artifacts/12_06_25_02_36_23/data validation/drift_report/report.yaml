@@ -1,0 +1,93 @@
+Abnormal_URL:
+  p_value: 0.903368877960458
+  true: false
+DNSRecord:
+  p_value: 0.33499598680276144
+  true: false
+Domain_registeration_length:
+  p_value: 1.0
+  true: false
+Favicon:
+  p_value: 0.9974838014331485
+  true: false
+Google_Index:
+  p_value: 1.0
+  true: false
+HTTPS_token:
+  p_value: 0.8923284435665428
+  true: false
+Iframe:
+  p_value: 1.0
+  true: false
+Links_in_tags:
+  p_value: 0.7634837477364733
+  true: false
+Links_pointing_to_page:
+  p_value: 0.9999989383967115
+  true: false
+Page_Rank:
+  p_value: 0.9935243434380693
+  true: false
+Prefix_Suffix:
+  p_value: 0.9999760319468036
+  true: false
+Redirect:
+  p_value: 1.0
+  true: false
+Request_URL:
+  p_value: 0.9964705532516113
+  true: false
+Result:
+  p_value: 0.9978960688614555
+  true: false
+RightClick:
+  p_value: 0.9999999977781104
+  true: false
+SFH:
+  p_value: 0.8685540728180071
+  true: false
+SSLfinal_State:
+  p_value: 1.0
+  true: false
+Shortining_Service:
+  p_value: 0.8747000547537782
+  true: false
+Statistical_report:
+  p_value: 0.9999760319468036
+  true: false
+Submitting_to_email:
+  p_value: 0.6930334890847099
+  true: false
+URL_Length:
+  p_value: 0.9964705532516113
+  true: false
+URL_of_Anchor:
+  p_value: 0.9328006214323754
+  true: false
+age_of_domain:
+  p_value: 1.0
+  true: false
+double_slash_redirecting:
+  p_value: 0.9491766928826618
+  true: false
+having_At_Symbol:
+  p_value: 1.0
+  true: false
+having_IP_Address:
+  p_value: 1.0
+  true: false
+having_Sub_Domain:
+  p_value: 0.23503837643819253
+  true: false
+on_mouseover:
+  p_value: 1.0
+  true: false
+popUpWidnow:
+  p_value: 1.0
+  true: false
+port:
+  p_value: 0.9138087452740576
+  true: false
+web_traffic:
+  p_value: 0.9413205455808915
+  true: false
