@@ -4,6 +4,7 @@ numpy
 certifi
 pymongo[srv]==4.6.3
 pymongo
+scikit-learn
 
 #-e . ##This will refer it to setup.py  we use it at the end when we want to complete or deploy our project
 
