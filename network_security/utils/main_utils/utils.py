@@ -24,3 +24,28 @@ def write_yaml_file(file_path,content,replace):
                 yaml.dump(content,file)
     except Exception as e:
         raise NetworkSecuritySystem(e,sys)
+    
+
+def save_numpy_data(file_path,array):
+    try:
+        dir_name=os.path.dirname(file_path)
+        os.makedirs(dir_name,exist_ok=True)
+
+        with open(file_path,"wb") as file:
+            np.save(file,array)
+    except Exception as e:
+        raise NetworkSecuritySystem(e,sys)
+    
+
+def save_object(file_path,obj):
+     try:
+        logging.info("Object is going to be transfered in the folder")
+        dir_name=os.path.dirname(file_path)
+        os.makedirs(dir_name,exist_ok=True)
+
+        with open(file_path,"wb") as file:
+         pickle.dump(obj,file)
+
+        logging.info("Object have been successfully been saved")
+     except Exception as e:
+        raise NetworkSecuritySystem(e,sys)

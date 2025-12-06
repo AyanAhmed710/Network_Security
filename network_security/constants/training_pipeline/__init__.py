@@ -46,3 +46,20 @@ DATA_VALIDATION_VALID_DIR="validated"
 DATA_VALIDATION_INVALID_DIR="invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR="drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME="report.yaml"
+
+
+"""
+Data Transformation Related Constants
+"""
+
+DATA_TRANSFORMATION_DIR_NAME="data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR_NAME="transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR_NAME="transformed_object"
+PREPROCESSING_OBJ_FILE_NAME="preprocessing.pkl"
+
+##knn imputer
+DATA_TRANSFORMATION_IMPUTER_PARAMS={
+    "missing_values" :np.nan,
+    "n_neighbors" :3,
+    "weights": "uniform"
+}
