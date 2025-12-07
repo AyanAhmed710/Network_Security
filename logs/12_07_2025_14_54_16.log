@@ -1,0 +1,26 @@
+[ 2025-12-07 14:54:23,973 ] - 18 root - INFO - Initiate the Data Ingestion
+[ 2025-12-07 14:54:51,232 ] - 60 root - INFO - Performing Train Test Split on dataset
+[ 2025-12-07 14:54:51,233 ] - 62 root - INFO - Excited split_data as train test split
+[ 2025-12-07 14:54:51,234 ] - 67 root - INFO - Export tain and test file path
+[ 2025-12-07 14:54:51,341 ] - 72 root - INFO - Exporting train and test path
+[ 2025-12-07 14:54:51,342 ] - 22 root - INFO - Data Ingestion Completed
+[ 2025-12-07 14:54:51,356 ] - 26 root - INFO - Data Validation has started
+[ 2025-12-07 14:54:51,470 ] - 32 root - INFO - Required number of columns 2
+[ 2025-12-07 14:54:51,470 ] - 33 root - INFO - DataFrame has columns 31
+[ 2025-12-07 14:54:51,473 ] - 32 root - INFO - Required number of columns 2
+[ 2025-12-07 14:54:51,473 ] - 33 root - INFO - DataFrame has columns 31
+[ 2025-12-07 14:54:51,791 ] - 28 root - INFO - Data Validation Completed
+[ 2025-12-07 14:54:51,793 ] - 30 root - INFO - Data Transformation Started
+[ 2025-12-07 14:54:51,793 ] - 61 root - INFO - Inititae data transformation
+[ 2025-12-07 14:54:51,793 ] - 63 root - INFO - Starting data transformation
+[ 2025-12-07 14:54:51,917 ] - 45 root - INFO - get_data_transformer_object method of transformation class
+[ 2025-12-07 14:54:51,917 ] - 50 root - INFO - Initialize KNN iwth these params {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-12-07 14:54:51,943 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 14:54:51,949 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 14:54:51,951 ] - 35 root - INFO - Data Transformation ended
+[ 2025-12-07 14:54:51,952 ] - 39 root - INFO - Data Training Started
+[ 2025-12-07 14:56:24,765 ] - 89 root - INFO - Best model name is Random Forest
+[ 2025-12-07 14:56:35,913 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 14:56:35,927 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 14:56:35,927 ] - 124 root - INFO - Model Trainer Artifact: DataTrainerArtifact(train_model_file_path='Artifacts\\12_07_25_14_54_18\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationmeticArtifact(f1_score=0.9911326078194277, precision_score=0.9891391794046661, recall_score=0.9931340872374798), test_metric_artifact=ClassificationmeticArtifact(f1_score=0.9793388429752066, precision_score=0.9753086419753086, recall_score=0.983402489626556))
+[ 2025-12-07 14:56:35,928 ] - 44 root - INFO - Model Training Completed

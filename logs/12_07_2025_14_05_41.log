@@ -1,0 +1,21 @@
+[ 2025-12-07 14:05:42,696 ] - 18 root - INFO - Initiate the Data Ingestion
+[ 2025-12-07 14:05:59,238 ] - 60 root - INFO - Performing Train Test Split on dataset
+[ 2025-12-07 14:05:59,238 ] - 62 root - INFO - Excited split_data as train test split
+[ 2025-12-07 14:05:59,239 ] - 67 root - INFO - Export tain and test file path
+[ 2025-12-07 14:05:59,345 ] - 72 root - INFO - Exporting train and test path
+[ 2025-12-07 14:05:59,346 ] - 22 root - INFO - Data Ingestion Completed
+[ 2025-12-07 14:05:59,355 ] - 26 root - INFO - Data Validation has started
+[ 2025-12-07 14:05:59,470 ] - 32 root - INFO - Required number of columns 2
+[ 2025-12-07 14:05:59,470 ] - 33 root - INFO - DataFrame has columns 31
+[ 2025-12-07 14:05:59,477 ] - 32 root - INFO - Required number of columns 2
+[ 2025-12-07 14:05:59,478 ] - 33 root - INFO - DataFrame has columns 31
+[ 2025-12-07 14:05:59,761 ] - 28 root - INFO - Data Validation Completed
+[ 2025-12-07 14:05:59,762 ] - 30 root - INFO - Data Transformation Started
+[ 2025-12-07 14:05:59,762 ] - 61 root - INFO - Inititae data transformation
+[ 2025-12-07 14:05:59,762 ] - 63 root - INFO - Starting data transformation
+[ 2025-12-07 14:05:59,864 ] - 45 root - INFO - get_data_transformer_object method of transformation class
+[ 2025-12-07 14:05:59,864 ] - 50 root - INFO - Initialize KNN iwth these params {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-12-07 14:05:59,892 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 14:05:59,904 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 14:05:59,909 ] - 35 root - INFO - Data Transformation ended
+[ 2025-12-07 14:05:59,911 ] - 39 root - INFO - Data Training Started
