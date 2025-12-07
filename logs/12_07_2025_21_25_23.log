@@ -1,0 +1,12 @@
+[ 2025-12-07 21:25:27,308 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-12-07 21:25:27,313 ] - 107 dagshub - INFO - Accessing as sheikhayanahmad710
+[ 2025-12-07 21:25:27,615 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-12-07 21:25:27,623 ] - 107 dagshub - INFO - Accessing as sheikhayanahmad710
+[ 2025-12-07 21:25:28,128 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sheikhayanahmad710/Network_Security "HTTP/1.1 200 OK"
+[ 2025-12-07 21:25:28,925 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sheikhayanahmad710/Network_Security "HTTP/1.1 200 OK"
+[ 2025-12-07 21:25:28,975 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-12-07 21:25:29,048 ] - 107 dagshub - INFO - Initialized MLflow to track repo "sheikhayanahmad710/Network_Security"
+[ 2025-12-07 21:25:29,049 ] - 107 dagshub - INFO - Repository sheikhayanahmad710/Network_Security initialized!
+[ 2025-12-07 21:25:29,593 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-12-07 21:25:29,595 ] - 107 dagshub - INFO - Initialized MLflow to track repo "sheikhayanahmad710/Network_Security"
+[ 2025-12-07 21:25:29,595 ] - 107 dagshub - INFO - Repository sheikhayanahmad710/Network_Security initialized!

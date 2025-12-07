@@ -1,0 +1,36 @@
+[ 2025-12-07 21:33:24,058 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-12-07 21:33:24,084 ] - 107 dagshub - INFO - Accessing as sheikhayanahmad710
+[ 2025-12-07 21:33:24,750 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sheikhayanahmad710/Network_Security "HTTP/1.1 200 OK"
+[ 2025-12-07 21:33:25,551 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-12-07 21:33:25,553 ] - 107 dagshub - INFO - Initialized MLflow to track repo "sheikhayanahmad710/Network_Security"
+[ 2025-12-07 21:33:25,553 ] - 107 dagshub - INFO - Repository sheikhayanahmad710/Network_Security initialized!
+[ 2025-12-07 21:33:36,778 ] - 39 root - INFO - Start Data Ingestion
+[ 2025-12-07 21:34:01,899 ] - 60 root - INFO - Performing Train Test Split on dataset
+[ 2025-12-07 21:34:01,899 ] - 62 root - INFO - Excited split_data as train test split
+[ 2025-12-07 21:34:01,899 ] - 67 root - INFO - Export tain and test file path
+[ 2025-12-07 21:34:01,938 ] - 72 root - INFO - Exporting train and test path
+[ 2025-12-07 21:34:01,940 ] - 42 root - INFO - Data Ingestion Completed and artifactDataIngestionArtifact(trained_file_path='Artifacts\\12_07_25_21_33_06\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\12_07_25_21_33_06\\data_ingestion\\ingested\\test.csv')
+[ 2025-12-07 21:34:01,977 ] - 53 root - INFO - Data Validation has started
+[ 2025-12-07 21:34:02,073 ] - 32 root - INFO - Required number of columns 2
+[ 2025-12-07 21:34:02,073 ] - 33 root - INFO - DataFrame has columns 31
+[ 2025-12-07 21:34:02,073 ] - 32 root - INFO - Required number of columns 2
+[ 2025-12-07 21:34:02,073 ] - 33 root - INFO - DataFrame has columns 31
+[ 2025-12-07 21:34:02,213 ] - 55 root - INFO - Data Validation Completed
+[ 2025-12-07 21:34:02,213 ] - 66 root - INFO - Data Transformation Started
+[ 2025-12-07 21:34:02,213 ] - 61 root - INFO - Inititae data transformation
+[ 2025-12-07 21:34:02,213 ] - 63 root - INFO - Starting data transformation
+[ 2025-12-07 21:34:02,287 ] - 45 root - INFO - get_data_transformer_object method of transformation class
+[ 2025-12-07 21:34:02,287 ] - 50 root - INFO - Initialize KNN iwth these params {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-12-07 21:34:02,307 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 21:34:02,309 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 21:34:02,309 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 21:34:02,309 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 21:34:02,311 ] - 70 root - INFO - Data Transformation ended
+[ 2025-12-07 21:34:02,311 ] - 81 root - INFO - Data Training Started
+[ 2025-12-07 21:34:57,277 ] - 93 root - INFO - Best model name is Random Forest
+[ 2025-12-07 21:35:46,400 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 21:35:46,418 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 21:35:46,418 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 21:35:46,430 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 21:35:46,430 ] - 130 root - INFO - Model Trainer Artifact: DataTrainerArtifact(train_model_file_path='Artifacts\\12_07_25_21_33_06\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationmeticArtifact(f1_score=0.9901512843943547, precision_score=0.9872443814537356, recall_score=0.9930753564154786), test_metric_artifact=ClassificationmeticArtifact(f1_score=0.9792993630573248, precision_score=0.9723320158102767, recall_score=0.9863672814755413))
+[ 2025-12-07 21:35:46,432 ] - 85 root - INFO - Model Training Completed
