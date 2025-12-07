@@ -1,6 +1,10 @@
 import os,sys
 from network_security.exception.exception import NetworkSecuritySystem
 from network_security.logging.logger import logging
+import dagshub
+dagshub.init(repo_owner='sheikhayanahmad710', repo_name='Network_Security', mlflow=True)
+
+
 
 from network_security.entity.config_entity import DataTrainerConfig
 from network_security.entity.artifact_entity import DataTransformationArtifact,DataTrainerArtifact
@@ -113,6 +117,8 @@ class ModelTrainer:
 
         # SAVE MODEL OBJECT (NOT CLASS!)
         save_object(self.model_trainer_config.trained_model_dir, network_model)
+
+        save_object("final_model/model.pkl",best_model)
 
         # ARTIFACT
         model_trainer_artifact = DataTrainerArtifact(

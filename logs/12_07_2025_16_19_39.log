@@ -1,0 +1,36 @@
+[ 2025-12-07 16:19:43,362 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-12-07 16:19:43,374 ] - 107 dagshub - INFO - Accessing as sheikhayanahmad710
+[ 2025-12-07 16:19:44,389 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sheikhayanahmad710/Network_Security "HTTP/1.1 200 OK"
+[ 2025-12-07 16:19:45,406 ] - 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-12-07 16:19:45,411 ] - 107 dagshub - INFO - Initialized MLflow to track repo "sheikhayanahmad710/Network_Security"
+[ 2025-12-07 16:19:45,412 ] - 107 dagshub - INFO - Repository sheikhayanahmad710/Network_Security initialized!
+[ 2025-12-07 16:19:46,902 ] - 18 root - INFO - Initiate the Data Ingestion
+[ 2025-12-07 16:20:02,025 ] - 60 root - INFO - Performing Train Test Split on dataset
+[ 2025-12-07 16:20:02,025 ] - 62 root - INFO - Excited split_data as train test split
+[ 2025-12-07 16:20:02,026 ] - 67 root - INFO - Export tain and test file path
+[ 2025-12-07 16:20:02,126 ] - 72 root - INFO - Exporting train and test path
+[ 2025-12-07 16:20:02,127 ] - 22 root - INFO - Data Ingestion Completed
+[ 2025-12-07 16:20:02,142 ] - 26 root - INFO - Data Validation has started
+[ 2025-12-07 16:20:02,262 ] - 32 root - INFO - Required number of columns 2
+[ 2025-12-07 16:20:02,263 ] - 33 root - INFO - DataFrame has columns 31
+[ 2025-12-07 16:20:02,263 ] - 32 root - INFO - Required number of columns 2
+[ 2025-12-07 16:20:02,263 ] - 33 root - INFO - DataFrame has columns 31
+[ 2025-12-07 16:20:02,580 ] - 28 root - INFO - Data Validation Completed
+[ 2025-12-07 16:20:02,580 ] - 30 root - INFO - Data Transformation Started
+[ 2025-12-07 16:20:02,581 ] - 61 root - INFO - Inititae data transformation
+[ 2025-12-07 16:20:02,581 ] - 63 root - INFO - Starting data transformation
+[ 2025-12-07 16:20:02,691 ] - 45 root - INFO - get_data_transformer_object method of transformation class
+[ 2025-12-07 16:20:02,691 ] - 50 root - INFO - Initialize KNN iwth these params {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-12-07 16:20:02,718 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 16:20:02,725 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 16:20:02,725 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 16:20:02,730 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 16:20:02,733 ] - 35 root - INFO - Data Transformation ended
+[ 2025-12-07 16:20:02,733 ] - 39 root - INFO - Data Training Started
+[ 2025-12-07 16:21:23,101 ] - 93 root - INFO - Best model name is Gradient Boosting
+[ 2025-12-07 16:21:51,978 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 16:21:52,003 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 16:21:52,003 ] - 44 root - INFO - Object is going to be transfered in the folder
+[ 2025-12-07 16:21:52,013 ] - 51 root - INFO - Object have been successfully been saved
+[ 2025-12-07 16:21:52,014 ] - 130 root - INFO - Model Trainer Artifact: DataTrainerArtifact(train_model_file_path='Artifacts\\12_07_25_16_19_40\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationmeticArtifact(f1_score=0.9822258129670773, precision_score=0.9804435483870968, recall_score=0.9840145690004047), test_metric_artifact=ClassificationmeticArtifact(f1_score=0.973305954825462, precision_score=0.9713114754098361, recall_score=0.9753086419753086))
+[ 2025-12-07 16:21:52,018 ] - 44 root - INFO - Model Training Completed

@@ -88,6 +88,8 @@ class DataTransformation:
             save_numpy_data(self.data_transformation_config.test_data_transformation_dir,array=test_arr)
             save_object(self.data_transformation_config.object_data_transformation_dir,preprocessor_obj)
 
+            save_object("final_Model/preprocessing.pkl",preprocessor_obj)
+
             #Preparing Artifacts
 
             data_transformation_artifact=DataTransformationArtifact(
